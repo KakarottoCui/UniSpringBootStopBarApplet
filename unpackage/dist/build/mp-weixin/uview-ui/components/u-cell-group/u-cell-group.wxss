@@ -1,0 +1,1 @@
+view, scroll-view, swiper-item{display:flex;flex-direction:column;flex-shrink:0;flex-grow:0;flex-basis:auto;align-items:stretch;align-content:flex-start}.u-cell-group{flex:1}.u-cell-group__title{padding:16px 16px 8px}.u-cell-group__title__text{font-size:15px;line-height:16px;color:#303133}.u-cell-group__wrapper{position:relative}

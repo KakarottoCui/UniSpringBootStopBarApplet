@@ -1,0 +1,104 @@
+{	
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		{
+			"path": "pages/site/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},{
+			"path": "pages/site/notice",
+			"style": {
+				"navigationBarTitleText": "公告"
+			}
+		}
+        ,{
+            "path" : "pages/user/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#527bff"
+            }
+            
+        }
+        ,{
+            "path" : "pages/simple/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "登录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        
+		
+        ,{
+            "path" : "pages/user/userInfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+        {
+        	"path" : "pages/simple/register",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "注册",
+        		"enablePullDownRefresh" : false
+        	}
+        },
+        {
+        	"path" : "pages/site/order",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "订单",
+        		"enablePullDownRefresh" : false
+        	}
+        },
+        {
+        	"path" : "pages/user/feed/feed",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "意见反馈",
+        		"enablePullDownRefresh" : false
+        	}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "智慧停车",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#909399",
+		"selectedColor": "#527bff",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/site/index",
+				"iconPath": "static/coolc/icon/home.png",
+				"selectedIconPath": "static/coolc/icon/home_select.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/site/order",
+				"iconPath": "static/coolc/park1.png",
+				"selectedIconPath": "static/coolc/park2.png",
+				"text": "订单"
+			},
+			{
+				"pagePath": "pages/user/index",
+				"iconPath": "static/coolc/icon/user.png",
+				"selectedIconPath": "static/coolc/icon/user_select.png",
+				"text": "我的"
+			}
+		]
+	}
+}

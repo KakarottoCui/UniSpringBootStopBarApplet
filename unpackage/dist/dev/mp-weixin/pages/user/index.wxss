@@ -1,0 +1,137 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.warp_user {
+  width: 750rpx;
+  padding: 30rpx;
+  background: linear-gradient(180deg, #3d7eff 0%, #3d7eff 30%, white 90%);
+}
+.top_user_box {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 30rpx;
+}
+.top_user_box image {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 100rpx;
+  border: 6rpx solid #fff;
+}
+.top_user_box .user_info {
+  padding: 24rpx;
+}
+.top_user_box .user_info .username {
+  font-size: 34rpx;
+  color: #fff;
+  padding-bottom: 10rpx;
+}
+.top_user_box .user_info .mobile {
+  font-size: 26rpx;
+  color: #fff;
+}
+.icon_boxs {
+  background: #fff;
+  border-radius: 20rpx;
+  padding: 60rpx 0 20rpx 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon_boxs .i {
+  width: 50%;
+  text-align: center;
+}
+.icon_boxs .i .icon_box {
+  width: 86rpx;
+  height: 86rpx;
+  line-height: 86rpx;
+  border-radius: 86rpx;
+  background: #9ab6ff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.icon_boxs .i .n {
+  padding-top: 20rpx;
+  font-size: 24rpx;
+  color: #333;
+}
+/* 遮罩层 */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 33rpx;
+}
+/* 窗口 */
+.modal-content {
+  background-color: white;
+  /* padding: 20px; */
+  width: 600rpx;
+  height: 800rpx;
+  border-radius: 8rpx;
+  position: relative;
+}
+.modal-content view:first-child {
+  padding: 30rpx;
+  font-size: 33rpx;
+  font-weight: bold;
+}
+.modal-content view:nth-child(2) {
+  padding: 40rpx;
+  font-size: 33rpx;
+  color: red;
+}
+/* 按钮 */
+.modal-buttons {
+  width: 100%;
+  display: flex;
+  bottom: 0;
+  position: absolute;
+  font-size: 33rpx;
+}
+.modal-buttons button {
+  width: 100%;
+  border: none;
+}
+.modal-buttons button:first-child {
+  background-color: #74bfe7;
+  color: #fff;
+  border-radius: 0;
+}
+.modal-buttons button:last-child {
+  width: 100%;
+  border: 2rpx solid #74bfe7;
+  border-radius: 0px;
+  background-color: #fff;
+  color: #74bfe7;
+}
+

@@ -1,0 +1,1 @@
+view, scroll-view, swiper-item{display:flex;flex-direction:column;flex-shrink:0;flex-grow:0;flex-basis:auto;align-items:stretch;align-content:flex-start}.u-radio-group{flex:1}.u-radio-group--row{display:flex;flex-direction:row}.u-radio-group--column{display:flex;flex-direction:column}

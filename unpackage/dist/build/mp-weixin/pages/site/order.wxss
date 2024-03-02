@@ -1,0 +1,1 @@
+.order{display:flex;flex-direction:row;justify-content:space-between;align-items:center}.item-view{padding:30rpx;border-radius:15px;box-shadow:3px 3px 20px #d3d3d3;font-size:30rpx}

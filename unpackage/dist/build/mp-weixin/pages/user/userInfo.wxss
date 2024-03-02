@@ -1,0 +1,1 @@
+.warp{width:750rpx;padding:160rpx 70rpx 30rpx 70rpx;background:#fff}.warp .name{width:100%;text-align:center;font-size:38rpx;color:#36f;padding-bottom:80rpx}.warp .u-form-item{padding-bottom:50rpx}.warp .buttonBox{width:100%;padding-top:30rpx}.warp .buttonBox .u-button{width:100%}

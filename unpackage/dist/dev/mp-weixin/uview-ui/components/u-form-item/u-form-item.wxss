@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+view, scroll-view, swiper-item {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: auto;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.u-form-item {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  color: #303133;
+}
+.u-form-item__body {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0;
+}
+.u-form-item__body__left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.u-form-item__body__left__content {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 10rpx;
+  flex: 1;
+}
+.u-form-item__body__left__content__icon {
+  margin-right: 8rpx;
+}
+.u-form-item__body__left__content__required {
+  position: absolute;
+  left: -9px;
+  color: #f56c6c;
+  line-height: 20px;
+  font-size: 20px;
+  top: 3px;
+}
+.u-form-item__body__left__content__label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+  color: #303133;
+  font-size: 15px;
+}
+.u-form-item__body__right {
+  flex: 1;
+}
+.u-form-item__body__right__content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+}
+.u-form-item__body__right__content__slot {
+  flex: 1;
+}
+.u-form-item__body__right__content__icon {
+  margin-left: 10rpx;
+  color: #c0c4cc;
+  font-size: 30rpx;
+}
+.u-form-item__body__right__message {
+  font-size: 12px;
+  line-height: 12px;
+  color: #f56c6c;
+}
+

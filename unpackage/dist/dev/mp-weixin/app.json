@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/site/index",
+    "pages/site/notice",
+    "pages/user/index",
+    "pages/simple/login",
+    "pages/user/userInfo",
+    "pages/simple/register",
+    "pages/site/order",
+    "pages/user/feed/feed"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "智慧停车",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#909399",
+    "selectedColor": "#527bff",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/site/index",
+        "iconPath": "static/coolc/icon/home.png",
+        "selectedIconPath": "static/coolc/icon/home_select.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/site/order",
+        "iconPath": "static/coolc/park1.png",
+        "selectedIconPath": "static/coolc/park2.png",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "iconPath": "static/coolc/icon/user.png",
+        "selectedIconPath": "static/coolc/icon/user_select.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

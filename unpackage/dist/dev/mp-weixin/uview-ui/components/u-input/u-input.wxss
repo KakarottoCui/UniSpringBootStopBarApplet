@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+view, scroll-view, swiper-item {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: auto;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.u-input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}
+.u-input--radius, .u-input--square {
+  border-radius: 4px;
+}
+.u-input--no-radius {
+  border-radius: 0;
+}
+.u-input--circle {
+  border-radius: 100px;
+}
+.u-input__content {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.u-input__content__field {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  line-height: 26px;
+  text-align: left;
+  color: #303133;
+  height: 24px;
+  font-size: 15px;
+  flex: 1;
+}
+.u-input__content__clear {
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  background-color: #c6c7cb;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  -webkit-transform: scale(0.82);
+          transform: scale(0.82);
+  margin-left: 4px;
+}
+.u-input__content__subfix-icon {
+  margin-left: 4px;
+}
+.u-input__content__prefix-icon {
+  margin-right: 4px;
+}
+

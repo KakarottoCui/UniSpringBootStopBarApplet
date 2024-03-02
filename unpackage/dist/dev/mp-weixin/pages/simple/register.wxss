@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.warp {
+  width: 750rpx;
+  padding: 160rpx 70rpx 30rpx 70rpx;
+  background: #fff;
+}
+.warp .name {
+  width: 100%;
+  text-align: center;
+  font-size: 38rpx;
+  color: #3366FF;
+  padding-bottom: 80rpx;
+}
+.warp .u-form-item {
+  padding-bottom: 50rpx;
+}
+.warp .buttonBox {
+  width: 100%;
+  padding-top: 30rpx;
+}
+.warp .buttonBox .u-button {
+  width: 100%;
+}
+

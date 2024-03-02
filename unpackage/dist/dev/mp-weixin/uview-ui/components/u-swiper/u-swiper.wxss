@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+view, scroll-view, swiper-item {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: auto;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.u-swiper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.u-swiper__wrapper {
+  flex: 1;
+}
+.u-swiper__wrapper__item__wrapper {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  overflow: hidden;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+.u-swiper__wrapper__item__wrapper__image {
+  flex: 1;
+}
+.u-swiper__wrapper__item__wrapper__video {
+  flex: 1;
+}
+.u-swiper__wrapper__item__wrapper__title {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.3);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 28rpx;
+  padding: 12rpx 24rpx;
+  color: #FFFFFF;
+  flex: 1;
+}
+.u-swiper__indicator {
+  position: absolute;
+  bottom: 10px;
+}
+

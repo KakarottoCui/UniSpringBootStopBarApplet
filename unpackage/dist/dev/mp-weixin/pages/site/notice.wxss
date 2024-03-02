@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.warp {
+  width: 100vw;
+  padding: 0 30rpx 30rpx 30rpx;
+  background: #fff;
+}
+.tbody {
+  height: 500rpx;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.w1 {
+  width: 28%;
+  padding-left: 0rpx !important;
+  padding-right: 0rpx !important;
+}
+.w2 {
+  width: 72%;
+  text-align: left;
+}
+.wrap {
+  width: 100%;
+}
+.demo-layout {
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.3);
+  height: 80rpx;
+  width: 140rpx;
+  padding: 20rpx;
+  border-radius: 10rpx;
+  font-size: 20rpx;
+  margin: 15rpx 15rpx;
+}
+.parking {
+  color: #fa3534;
+  box-shadow: 1px 1px 15px rgba(250, 53, 52, 0.6);
+}
+.park-content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10rpx;
+  margin-top: 30rpx;
+}
+.item-view {
+  border-radius: 15px;
+  box-shadow: 3px 3px 20px lightgray;
+}
+
