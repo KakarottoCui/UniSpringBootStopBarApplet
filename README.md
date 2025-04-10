@@ -22,3 +22,5 @@
 后端：JAVA语言，SpringBoot框架，MySQL数据库，Maven依赖管理等；
 
 前端：基于Vue的UniAPP框架，可编译成微信小程序。
+
+另一个版本的微信停车场小程序链接:https://github.com/KakarottoCui/UniSpringBootStopBarAppletPro
